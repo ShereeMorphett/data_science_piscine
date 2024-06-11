@@ -19,7 +19,6 @@ def main():
         except ValueError:
             raise AssertionError("the arguments are bad")
         split_input = sys.argv[1].split()
-
         ft_result = [word for word in
                      ft_filter(lambda x: len(x) > num, split_input)]
         print(list(ft_result))
