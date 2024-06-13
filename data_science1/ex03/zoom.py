@@ -32,12 +32,11 @@ def main():
 
         data = np.array(image2)
 
-        data = data.reshape(data.shape[0], data.shape[1])
         print(data.shape)
-
         print(data)
         # Shows the image in image viewer 
         image2.show()
+        
     except Exception as e:
         print(f"Error: {e}")
 
